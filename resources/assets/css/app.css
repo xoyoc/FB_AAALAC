@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Exo+2:400,700,700i';@import 'https://fonts.googleapis.com/css?family=Montserrat';html{overflow-x:hidden;}
+body{font-family:'Montserrat', sans-serif;}
+h1,h2,h3,h4,h5,h6, a, a:hover{font-family:'Exo 2', sans-serif;}
+h1,h2,h3,h4,h5,h6{color:#0F5EA8;font-size:2em;}
+h3{font-size:.6em;text-transform:uppercase;}
+h4{color:white;font-size:1.2em;}
+a{color:white;}
+a:hover{color:#FCB800;}
+ul{list-style:none;}
+input[type=text], textarea{border-color:#25A7C5;}
+div[aria-label=AAALAC] .orbit-container{height:550px !important;}
+div[aria-label=Asociados] .orbit-container{height:272px !important;}
+#menu_opciones{position:relative;left:-100%;top:15%;}
+.orbit-previous,.orbit-next{font-size:2em;}
+.encabezado-logotipo{position:absolute;z-index:1;top:30px;left:30px;width:25%;}
+.encabezado-redes_sociales, .encabezado-contenedorm{position:absolute;right:5%;z-index:1;background-color:#25A7C5;}
+.encabezado-redes_sociales{font-size:2em;}
+.boton-menu{position:absolute;top:70px;right:70px;z-index:1;font-size:3em;color:#25A7C5;}
+.encabezado-contenedorm-menu{left:-50%;}
+#ventanaacerca,#ventanarequi{width:800px;}
+.reveal p{font-size:.8em;}
+.reveal h6{font-size:1em;text-transform:uppercase;color:#2581DB;}
+#acerca_servicios{position:relative;}
+.acerca{text-align:center;margin:0 0 2em 0;}
+.acerca-icono{width:30%;}
+.boton-amarillo{background:#FCB700;color:white;text-transform:uppercase;border:none;padding:.5em;}
+.servicios{background-color:#2281DB;text-align:center;margin:0 0 1em 0;position:absolute;right:0;top:-20%;padding-bottom:3em;}
+.servicios-titulo{color:white;}
+.servicio-iconos{width:150px;}
+.servicio-iconosb{width:80px;}
+.menu>li>a{font-size:1em;padding:.2em;}
+#asociados{margin:0;}
+.orbit{width:100%;}
+.asociados, #noticias{background-color:#F9F9F9;}
+.asociados-titulo{text-align:center;}
+.asociados-cuadro-blanco{background-color:white;padding:1em 1.2em;}
+.asociados-cuadro-color-Verde{background-color:#A9C350;padding:1em 1.2em;}
+.asociados-cuadro-color-Rojo{background-color:#C5364C;padding:1em 1.2em;}
+.asociados-cuadro-color-AzulFuerte{background-color:#3861A5;padding:1em 1.2em;}
+.asociados-cuadro-color-AzulCielo{background-color:#60A6C3;padding:1em 1.2em;}
+.asociados-cuadro-color-AzulMedio{background-color:#4f80d7;padding:1em 1.2em;}
+.asociados-cuadro-color-Verde>h3, .asociados-cuadro-color-Rojo>h3, .asociados-cuadro-color-AzulFuerte>h3, .asociados-cuadro-color-AzulCielo>h3, .asociados-cuadro-color-AzulMedio>h3{color:white;}
+.asociados-cuadro-blanco .boton-amarillo,.asociados-cuadro-color-Verde .boton-amarillo, .asociados-cuadro-color-Rojo .boton-amarillo, .asociados-cuadro-color-AzulFuerte .boton-amarillo, .asociados-cuadro-color-AzulCielo .boton-amarillo, .asociados-cuadro-color-AzulMedio .boton-amarillo{margin:.5em 0 .5em 0;}
+.aa:before{content:"A.A. ";}
+.aa{font-size:.8em;}
+.asociados-cuadro-blanco>h3, .asociados-cuadro-blanco>.aa{color:black;width:80%;margin:auto;padding:.2em .2em;}
+.logo{width:100px;padding:.5em 0;}
+#ventanarequi{color:white;background-color:#25A7C5;}
+div[aria-label=Requisitos] .orbit-container{height:350px !important;}
+.requisitos-titulo{color:white;font-size:1.2em;margin-top:2em;}
+#enlaces_requisitos{background-image:url(../img/Home_Requisitos.png);background-repeat:no-repeat;background-size:100% 100%;background-origin:content-box;height:500px;}
+.enlaces-contenedor{position:relative;}
+.enlaces-caja{position:absolute;right:-10%;top:50%;width:40%;background-color:#1B2C4D;}
+.enlaces-caja>div{display:flex;}
+.enlaces-caja>div>a{display:block;width:20%;}
+.enlaces-caja>div>a>p{display:inline-block;margin-bottom:0;font-size:.8em;}
+.enlaces-iconosb,.requisitos-iconos{width:50px;}
+.requisitos-caja{background-color:#25A7C5;padding-bottom:1em;}
+.requisitos-iconos{margin-bottom:.5em;}
+.requisitos-titulo{margin:1em 0;}
+.requisitos-eslogan{width:80%;margin:2em auto;}
+.requisitos-items{margin-left:1em;width:25%;}
+.requisitos-items>p{color:white;}
+.filas-requisitos{display:flex;justify-content:space-around;padding:0 3.5em;margin-bottom:1em;}
+#noticias{padding-bottom:3em;}
+.noticias-titulo{font-size:2em;margin-left:2em;padding:1em 0;color:#0F5EA8;}
+.noticias-imagenes{width:350px;margin:.5em 5em;}
+.titulo-noticias{margin-top:2em;padding:.5em 0;}
+.piepagina{background-image:url(../img/Home_Mapa.jpg);background-repeat:no-repeat;background-size:100% 100%;background-origin:content-box;height:600px;position:relative;}
+.footer-icono-ubicacion{width:600px;position:absolute;left:20%;top:-10%;fill:white;}
+.footer-piepagina{background-color:#1B2C4D;color:white;font-size:.8em;padding-top:.5em;}
+.footer-contacto{color:black;background-color:white;position:absolute;right:10%;top:-10%;}
+.footer-contacto>ul>a{color:#25A7C5;}
+.footer-redes_sociales,.fi-mail{display:inline-block;}
+.footer-contacto>ul>li{margin-top:.5em;}
+.footer-redes_sociales-elemnto>a>i{font-size:3em;color:#25A7C5;}
+.fi-marker:before,.fi-telephone:before,.fi-mail:before{color:#25A7C5;font-size:1.5em;margin-right:.5em;}
+.formulario>.boton-amarillo{margin-bottom:1em;margin-left:80%;}
+@media only screen and (max-width:500px){.row .row{margin-right:.6em;margin-left:.6em;}
+.boton-menu{top:0px;right:50px;}
+.orbit,.orbit-image{height:100vh;}
+.orbit-container{height:100vh !important;}
+.orbit-previous,.orbit-next{display:none;}
+.encabezado-redes_sociales{bottom:30px;}
+.encabezado-logotipo{width:70%;}
+.boton-menu{color:white;top:50px;right:30px;}
+.acerca-icono{width:50%;}
+.servicio-iconosb{width:95px;}
+.servicios{position:initial;right:initial;top:initial;}
+.enlaces-contenedor,.filas-requisitos{padding:0;}
+.filas-requisitos{margin-bottom:0;}
+.requisitos-eslogan,.requisitos-caja>div:nth-last-of-type(2),.filas-requisitos>div:last-child{display:none;}
+.enlaces-caja{position:static;display:block;width:100%;}
+.requisitos-items{margin-left:0;width:35%;}
+.requisitos-items>p{font-size:.8em;}
+.noticias-imagenes{margin:0;display:block;width:100%;}
+.titulo-noticias{margin-top:0;padding:0;text-align:center;}
+#piepagina_contacto{margin-bottom:30em;}
+.piepagina{height:300px;}
+.footer-contacto{top:20%;}
+.footer-icono-ubicacion{left:150px;top:-5px;fill:#1C2A4E;z-index:1;width:190px;}
+.formulario>.boton-amarillo{margin-left:65%;}
+}
