@@ -20,46 +20,48 @@
 |
 */
 
-Route::get('/', function () {
-    return view('inicio');
+Route::view('/','inicio');
+
+Route::get('asociados',function(){
+	return \App\agentes::with('agencias')->get();
 });
 
-Route::get('fonatrac', function () {
-    return "MODULO DE FONATRAC";
-});
+Route::resource('agentes', 'AgentesController');
 
-Route::get('itzaman', function () {
-    return "MODULO DE ITZAMAN";
-});
+Route::resource('agencias', 'AgenciaController');
 
-Route::get('dgas', function () {
-    return "MODULO DE DGAS";
-});
+// Route::get('fonatrac', function () {
+//     return "MODULO DE FONATRAC";
+// });
 
-Route::get('comunicados', function () {
-    return "MODULO DE COMUNICADOS";
-});
+// Route::get('itzaman', function () {
+//     return "MODULO DE ITZAMAN";
+// });
 
-Route::get('convenios', function () {
-    return "MODULO DE CONVENIOS";
-});
+// Route::get('dgas', function () {
+//     return "MODULO DE DGAS";
+// });
 
-Route::get('rprevio', function () {
-    return "MODULO DE REPORTE DE PREVIOS";
-});
+// Route::get('comunicados', function () {
+//     return "MODULO DE COMUNICADOS";
+// });
 
-Route::get('moduferr', function () {
-    return "MODULO DE MODULACION FERROCARRIL";
-});
+// Route::get('convenios', function () {
+//     return "MODULO DE CONVENIOS";
+// });
 
-Route::get('jtecnica', function () {
-    return "MODULO DE JUNTAS TECNICAS";
-});
+// Route::get('rprevio', function () {
+//     return "MODULO DE REPORTE DE PREVIOS";
+// });
 
-Route::get('agentes', function () {
-    return "MODULO DE AGENTES ADUANALES";
-});
+// Route::get('moduferr', function () {
+//     return "MODULO DE MODULACION FERROCARRIL";
+// });
 
-Route::get('preva', function () {
-    return "MODULO DE PREVALIDADOR";
-});
+// Route::get('jtecnica', function () {
+//     return "MODULO DE JUNTAS TECNICAS";
+// });
+
+// Route::get('preva', function () {
+//     return "MODULO DE PREVALIDADOR";
+// });

@@ -994,6 +994,30 @@ var app = new Vue({
   el: '#app'
 });
 
+$('#copia_acta').change(function () {
+  if ($('#copia_acta').val() == 'Si' && $('#copia_publicacion').val() == 'Si' && $('#pago').val() == 'Si') {
+    $('#estatus').val('Activo');
+  } else {
+    $('#estatus').val('Pendinte');
+  }
+});
+
+$('#copia_publicacion').change(function () {
+  if ($('#copia_acta').val() == 'Si' && $('#copia_publicacion').val() == 'Si' && $('#pago').val() == 'Si') {
+    $('#estatus').val('Activo');
+  } else {
+    $('#estatus').val('Pendinte');
+  }
+});
+
+$('#pago').change(function () {
+  if ($('#copia_acta').val() == 'Si' && $('#copia_publicacion').val() == 'Si' && $('#pago').val() == 'Si') {
+    $('#estatus').val('Activo');
+  } else {
+    $('#estatus').val('Pendinte');
+  }
+});
+
 /***/ }),
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {

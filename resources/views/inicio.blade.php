@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-- / Seccion del Favicon -->
 
-    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="/css/app.css">
 
   </head>
   <body>

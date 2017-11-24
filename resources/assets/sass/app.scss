@@ -8,13 +8,14 @@
 @import "variables";
 
 // Bootstrap
-// @import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 // Foundation 
 @import "node_modules/foundation-sites/scss/foundation";
 
 // Corusel reposive
 @import 'node_modules/owl.carousel/src/scss/owl.carousel';
+@import 'node_modules/owl.carousel/src/scss/owl.theme.default';
 
 
 /*seccion de etiquetas */
@@ -268,7 +269,7 @@ div[aria-label=Requisitos] .orbit-container{
 }
 
 #enlaces_requisitos{
-	background-image: url(../img/Home_Requisitos.png);
+	background-image: url("/img/Home_Requisitos.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
     background-origin: content-box;
