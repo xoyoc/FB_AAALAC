@@ -22,6 +22,8 @@
 
 Route::view('/','inicio');
 
+Route::view('aa-admin','admin.inicio');
+
 Route::get('asociados',function(){
 	return \App\agentes::with('agencias')->get();
 });
