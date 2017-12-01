@@ -61,7 +61,7 @@ class AgenciaController extends Controller
     {
         //
 
-        return view('agencia.show', compact('agencia'));
+        return view('agencias.show', compact('agencia'));
 
     }
 
@@ -74,6 +74,7 @@ class AgenciaController extends Controller
     public function edit(Agencia $agencia)
     {
         //
+        return view('agencias.editar',compact('agencia'));
     }
 
     /**

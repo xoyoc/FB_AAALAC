@@ -1,6 +1,10 @@
 @extends('admin.layouts')
 
 
+@push('style')
+    
+@endpush
+
 @section('encabezado')
 	<section class="content-header">
 	  <h1>
@@ -20,3 +24,7 @@
 
     </section>
 @endsection
+
+@push('scripts')
+    
+@endpush

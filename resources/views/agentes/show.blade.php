@@ -1,17 +1,37 @@
-@extends('layouts')
+@extends('admin.layouts')
+
+@push('style')
+    
+@endpush
+
+@section('encabezado')
+	<section class="content-header">
+		<h1>
+			{{ $agente->nombreaa }}
+		</h1>
+		<ol class="breadcrumb">
+			<li><a href="#"><i class="fa fa-dashboard"></i>Inicio</a></li>
+			<li>Agentes</li>
+			<li class="active">Ver</li>
+		</ol>
+	</section>
+@endsection
 
 @section('contenido')
-	<div class="card mt-3">
-		 <div class="card-header">
-			{{ $agente->patente }}
-  		</div>
-		<div class="card-block">
-			<h6 class="card-subtitle text-muted">{{ $agente->nombreaa }}</h6>
-			<h5 class="my-2"><a class="text-primary" href="mailto:{{ $agente->email }}">{{ $agente->email }}</a></h5>
-			<p class="card-text pt-2">Fecha de Inscripcion: {{ date('d M Y', strtotime($agente->fecha_inscripcion)) }}</p>
-			<p class="card-text">Curp: {{ $agente->curp }}</p>
-			<p class="card-text">Espediente: {{ $agente->estatus }}</p>
-			<a href="/agentes" class="btn btn-warning">Regersar</a>
+	<section class="content">
+		<div class="box box-default">
+			<div class="box-header with-border">
+				<h3 class="box-title">Patente: {{ $agente->patente }}</h3>
+			</div>
+			<div class="box-body">
+				<h3><a class="text-primary" href="mailto:{{ $agente->email }}">{{ $agente->email }}</a></h3>
+				<h3>Fecha de Inscripcion: {{ date('d M Y', strtotime($agente->fecha_inscripcion)) }}</h3>
+				<h3>Curp: {{ $agente->curp }}</h3>
+				<h3>Espediente: {{ $agente->estatus }}</h3>
+			</div>
+			<div class="box-footer">
+				<a href="/agentes" class="btn btn-warning">Regersar</a>
+			</div>
 		</div>
-	</div>
+	</section>
 @endsection
