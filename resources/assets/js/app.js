@@ -6,6 +6,11 @@
  */
 
 require('./bootstrap')
+require('./vendor/jquery')
+require('./vendor/what-input')
+require('./vendor/foundation.min')
+require('./vendor/owl.carousel')
+require('./vendor/owl.autoplay')
 
 window.Vue = require('vue')
 
@@ -43,4 +48,28 @@ $('#pago').change(function () {
   } else {
     $('#estatus').val('Pendinte')
   }
+})
+
+$(document).ready(function () {
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+        nav: true
+      },
+      600: {
+        items: 4,
+        nav: false
+      },
+      1000: {
+        items: 6,
+        nav: true
+      }
+    }
+  })
 })

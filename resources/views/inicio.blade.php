@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-- / Seccion del Favicon -->
 
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
   </head>
   <body>
@@ -83,16 +83,16 @@
             <button class="orbit-next"><span class="show-for-sr">Siguiente Lamina</span>&#10217;&#xFE0E;</button>
             
             <li class="is-active orbit-slide">
-              <img class="orbit-image" data-interchange="[img/Home_Slider1_Movil.png, small], [img/Home_Slider1.png, medium]" alt="Laminas de Inicio">
+              <img class="orbit-image" scr="{{ asset('img/Home_Slider1.png') }}" alt="Laminas de Inicio">
             </li>
             <li class="orbit-slide">
-              <img class="orbit-image" data-interchange="[img/Home_Slider2_Movil.png, small], [img/Home_Slider2.png, medium]" alt="Laminas de Inicio">
+              <img class="orbit-image" scr="{{ asset('img/Home_Slider2.png') }}" alt="Laminas de Inicio">
             </li>
             <li class="orbit-slide">
-              <img class="orbit-image" data-interchange="[img/Home_Slider3_Movil.png, small], [img/Home_Slider3.png, medium]" alt="Laminas de Inicio">
+              <img class="orbit-image" scr="{{ asset('img/Home_Slider3.png') }}" alt="Laminas de Inicio">
             </li>
             <li class="orbit-slide">
-              <img class="orbit-image" data-interchange="[img/Home_Slider4_Movil.png, small], [img/Home_Slider4.png, medium]" alt="Laminas de Inicio">
+              <img class="orbit-image" scr="{{ asset('img/Home_Slider4.png') }}" alt="Laminas de Inicio">
             </li>
           </ul>
         </div>
@@ -710,7 +710,7 @@
     <!-- / Seccion de visitas y requisitos -->
 
     <!-- Seccion de Noticias -->
-    <div class="expanded row" id="noticias" data-magellan-target="noticias">
+    <div class="expanded row" id="noticias" data-magellan-target="noticias" id="app">
       <div class="expanded row">
         <h4 class="noticias-titulo">Noticias</h4>
       </div>     
@@ -786,43 +786,17 @@
 
     
     <!-- Seccion de archivos JavaScript -->
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.min.js"></script>
-    <script src="js/vendor/owl.carousel.js"></script>
-    <script src="js/vendor/owl.autoplay.js"></script>
-    <script src="js/app.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-            loop:true,
-            margin:10,
-            autoplay: true,
-            autoplayTimeout:1000,
-            responsiveClass:true,
-            responsive:{
-                0:{
-                    items:2,
-                    nav:true
-                },
-                600:{
-                    items:4,
-                    nav:false
-                },
-                1000:{
-                    items:6,
-                    nav:true
-                }
-            }
-        })
-        });
-    </script>
+{{--     <script src="{{ asset('js/vendor/jquery.js') }}"></script>
+    <script src="{{ asset('js/vendor/what-input.js') }}"></script>
+    <script src="{{ asset('js/vendor/foundation.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/owl.carousel.js') }}"></script>
+    <script src="{{ asset('js/vendor/owl.autoplay.js') }}"></script> --}}
+    <script src="{{ asset('js/app.js') }}"></script>
     <!-- / Seccion de archivos JavaScript -->
   </body>
 </html>
-<!-- Seccion de hojas de estilos -->
-<link rel="stylesheet" href="iconos/foundation-icons.css">
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
-<link rel="stylesheet" href="css/app.css">
-<!-- / Seccion de hojas de estilos -->
+{{-- <!-- Seccion de hojas de estilos -->
+<link rel="stylesheet" href="{{ asset('iconos/foundation-icons.css') }}">
+<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+<!-- / Seccion de hojas de estilos --> --}}
