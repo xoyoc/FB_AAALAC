@@ -786,17 +786,8 @@
 
     
     <!-- Seccion de archivos JavaScript -->
-{{--     <script src="{{ asset('js/vendor/jquery.js') }}"></script>
-    <script src="{{ asset('js/vendor/what-input.js') }}"></script>
-    <script src="{{ asset('js/vendor/foundation.min.js') }}"></script>
-    <script src="{{ asset('js/vendor/owl.carousel.js') }}"></script>
-    <script src="{{ asset('js/vendor/owl.autoplay.js') }}"></script> --}}
     <script src="{{ asset('js/app.js') }}"></script>
     <!-- / Seccion de archivos JavaScript -->
   </body>
 </html>
-{{-- <!-- Seccion de hojas de estilos -->
-<link rel="stylesheet" href="{{ asset('iconos/foundation-icons.css') }}">
-<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-<!-- / Seccion de hojas de estilos --> --}}
+
