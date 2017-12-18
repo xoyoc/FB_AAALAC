@@ -46,7 +46,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i>Fonatrac</a></li>
+            <li><a href="{{ route('fonatrac.index') }}"><i class="fa fa-circle-o"></i>Fonatrac</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i>Itzamana</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i>Dga's</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i>Comunicados</a></li>

@@ -1006,12 +1006,12 @@ module.exports = __webpack_require__(44);
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-__webpack_require__(12);
 __webpack_require__(36);
 __webpack_require__(37);
 __webpack_require__(38);
 __webpack_require__(39);
 __webpack_require__(40);
+__webpack_require__(12);
 
 window.Vue = __webpack_require__(41);
 
@@ -1056,7 +1056,9 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout: 1000,
+    autoHeight: true,
+    autoWidth: true,
+    autoplayTimeout: 3000,
     responsiveClass: true,
     responsive: {
       0: {

@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Agencia;
-use App\Agente;
+use App\fonatrac;
+use App\paises;
 use Illuminate\Http\Request;
 
-class AgenciaController extends Controller
+class FonatracController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +16,9 @@ class AgenciaController extends Controller
     public function index()
     {
         //
-        $agencias = Agencia::get();
-        return view('agencias.index', compact('agencias'));
+        $fonatrac = fonatrac::get();
+
+        return view('fonatrac.index', compact('fonatrac'));
     }
 
     /**
@@ -28,8 +29,9 @@ class AgenciaController extends Controller
     public function create()
     {
         //
-        $agentes = agente::get();
-        return view('agencias.crear', compact('agentes'));
+        $paises = paises::get();
+
+        return view('fonatrac.crear', compact('paises'));
     }
 
     /**
@@ -41,50 +43,43 @@ class AgenciaController extends Controller
     public function store(Request $request)
     {
         //
-        Agencia::create($request->all());
+        fonatrac::create($request->all());
 
-        if ($request->hasFile('logotipo'))
-        {
-            $agencia->logotipo = $request->file('logotipo')->store('aa_logotipos');
-            $agencia->save();
-        }
-        return back()->with('flash', "Agente Aduanal ".$request->nombreaa." se agrego con exito..");
+        return back()->with('flash', "Movimiento del ".$request->nombre_buque." se agrego con exito..");
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Agencia  $agencia
+     * @param  \App\fonatrac  $fonatrac
      * @return \Illuminate\Http\Response
      */
-    public function show(Agencia $agencia)
+    public function show(fonatrac $fonatrac)
     {
         //
-
-        return view('agencias.show', compact('agencia'));
-
+        return view('fonatrac.show');
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Agencia  $agencia
+     * @param  \App\fonatrac  $fonatrac
      * @return \Illuminate\Http\Response
      */
-    public function edit(Agencia $agencia)
+    public function edit(fonatrac $fonatrac)
     {
         //
-        return view('agencias.editar',compact('agencia'));
+        return view('fonatrac.editar');
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Agencia  $agencia
+     * @param  \App\fonatrac  $fonatrac
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Agencia $agencia)
+    public function update(Request $request, fonatrac $fonatrac)
     {
         //
     }
@@ -92,14 +87,11 @@ class AgenciaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Agencia  $agencia
+     * @param  \App\fonatrac  $fonatrac
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Agencia $agencia)
+    public function destroy(fonatrac $fonatrac)
     {
         //
-        $agencia->delete();
-
-        return redirect()->route('agencia.index');
     }
 }

@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Agencia;
-use App\Agente;
+use App\paises;
 use Illuminate\Http\Request;
 
-class AgenciaController extends Controller
+class PaisesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +15,6 @@ class AgenciaController extends Controller
     public function index()
     {
         //
-        $agencias = Agencia::get();
-        return view('agencias.index', compact('agencias'));
     }
 
     /**
@@ -28,8 +25,6 @@ class AgenciaController extends Controller
     public function create()
     {
         //
-        $agentes = agente::get();
-        return view('agencias.crear', compact('agentes'));
     }
 
     /**
@@ -41,50 +36,38 @@ class AgenciaController extends Controller
     public function store(Request $request)
     {
         //
-        Agencia::create($request->all());
-
-        if ($request->hasFile('logotipo'))
-        {
-            $agencia->logotipo = $request->file('logotipo')->store('aa_logotipos');
-            $agencia->save();
-        }
-        return back()->with('flash', "Agente Aduanal ".$request->nombreaa." se agrego con exito..");
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Agencia  $agencia
+     * @param  \App\paises  $paises
      * @return \Illuminate\Http\Response
      */
-    public function show(Agencia $agencia)
+    public function show(paises $paises)
     {
         //
-
-        return view('agencias.show', compact('agencia'));
-
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Agencia  $agencia
+     * @param  \App\paises  $paises
      * @return \Illuminate\Http\Response
      */
-    public function edit(Agencia $agencia)
+    public function edit(paises $paises)
     {
         //
-        return view('agencias.editar',compact('agencia'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Agencia  $agencia
+     * @param  \App\paises  $paises
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Agencia $agencia)
+    public function update(Request $request, paises $paises)
     {
         //
     }
@@ -92,14 +75,11 @@ class AgenciaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Agencia  $agencia
+     * @param  \App\paises  $paises
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Agencia $agencia)
+    public function destroy(paises $paises)
     {
         //
-        $agencia->delete();
-
-        return redirect()->route('agencia.index');
     }
 }

@@ -5,12 +5,12 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap')
 require('./vendor/jquery')
 require('./vendor/what-input')
 require('./vendor/foundation.min')
 require('./vendor/owl.carousel')
 require('./vendor/owl.autoplay')
+require('./bootstrap')
 
 window.Vue = require('vue')
 
@@ -55,7 +55,9 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout: 1000,
+    autoHeight: true,
+    autoWidth: true,
+    autoplayTimeout: 3000,
     responsiveClass: true,
     responsive: {
       0: {

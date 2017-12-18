@@ -8,15 +8,17 @@
 @import "variables";
 
 // Bootstrap
-@import "node_modules/bootstrap/scss/bootstrap";
+// @import "node_modules/bootstrap/scss/bootstrap";
 
-// Foundation 
-@import "node_modules/foundation-sites/scss/foundation";
+// Foundation Iconos
+@import "node_modules/foundation-icons/foundation-icons";
 
 // Corusel reposive
 @import "node_modules/owl.carousel/src/scss/owl.carousel";
 @import "node_modules/owl.carousel/src/scss/owl.theme.default";
 
+// Foundation 
+@import "node_modules/foundation-sites/scss/foundation";
 
 /*seccion de etiquetas */
 
@@ -64,12 +66,8 @@ input[type=text], textarea{
 }
 
 /* Encabezado */
-div[aria-label=AAALAC] .orbit-container{
-	height: 550px !important;
-}
-
-div[aria-label=Asociados] .orbit-container{
-	height: 272px !important;
+div.carusel_aaalac{
+	z-index:-100 !important;
 }
 
 #menu_opciones{
@@ -78,16 +76,12 @@ div[aria-label=Asociados] .orbit-container{
 	top:15%;
 }
 
-.orbit-previous,.orbit-next{
-	font-size: 2em;
-}
-
 .encabezado-logotipo {
 	position: absolute;
 	z-index: 1;
 	top: 30px;
 	left: 30px;
-	width: 25%;
+	width: 35%;
 }
 
 .encabezado-redes_sociales, .encabezado-contenedorm {
@@ -98,7 +92,7 @@ div[aria-label=Asociados] .orbit-container{
 }
 
 .encabezado-redes_sociales{
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .boton-menu {
@@ -155,7 +149,7 @@ div[aria-label=Asociados] .orbit-container{
 	text-align: center;
 	margin: 0 0 1em 0;
 	position: absolute;
-	right: 0;
+	right: 30px;
 	top:-20%;
 	padding-bottom: 3em;
 }
@@ -165,11 +159,11 @@ div[aria-label=Asociados] .orbit-container{
 }
 
 .servicio-iconos{
-	width: 150px;
+	width: 70px;
 }
 
 .servicio-iconosb{
-	width: 80px;
+	width: 60px;
 }
 
 .menu>li>a {

@@ -32,9 +32,9 @@ Route::resource('agentes', 'AgentesController');
 
 Route::resource('agencias', 'AgenciaController');
 
-// Route::get('fonatrac', function () {
-//     return "MODULO DE FONATRAC";
-// });
+Route::resource('fonatrac', 'FonatracController');
+
+
 
 // Route::get('itzaman', function () {
 //     return "MODULO DE ITZAMAN";

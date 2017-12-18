@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-- / Seccion del Favicon -->
 
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="css/app.css">
 
   </head>
   <body>
@@ -41,19 +41,19 @@
       </div>
       <header class="encabezado">
         <!--  Logotipo de AAALAC -->
-        <img class="encabezado-logotipo" src="img/Logo.png" alt="Logotipo de AAALAC">
+        <img class="encabezado-logotipo" src="img/Logo.svg" alt="Logotipo de AAALAC">
         <!-- / Logotipo de AAALAC -->
 
         <!-- Seccion de menus -->
         <nav class="small-6 medium-3 columns encabezado-redes_sociales">
-          <ul class="menu">
-            <li class="encabezado-redes_sociales-elemnto">
+          <ul class="menu align-right">
+            <li>
               <a href="https://www.facebook.com/aaalac/"><i class="fi-social-facebook"></i></a>
             </li>
-            <li class="encabezado-redes_sociales-elemnto">
+            <li>
               <a href="https://twitter.com/AAALAC51"><i class="fi-social-twitter"></i></a>
             </li>
-            <li class="encabezado-redes_sociales-elemnto">
+            <li>
               <a href="https://plus.google.com/113078265389844237684"><i class="fi-social-google-plus"></i></a>
             </li>
           </ul>
@@ -77,24 +77,15 @@
         <!-- / Seccion de menus -->
 
         <!-- Seccion de Laminas de Inicio -->
-        <div class="orbit" aria-label="AAALAC" data-orbit>
-          <ul class="orbit-container">
-            <button class="orbit-previous"><span class="show-for-sr">Anterio Lamina</span>&#10216;&#xFE0E;</button>
-            <button class="orbit-next"><span class="show-for-sr">Siguiente Lamina</span>&#10217;&#xFE0E;</button>
-            
-            <li class="is-active orbit-slide">
-              <img class="orbit-image" scr="{{ asset('img/Home_Slider1.png') }}" alt="Laminas de Inicio">
-            </li>
-            <li class="orbit-slide">
-              <img class="orbit-image" scr="{{ asset('img/Home_Slider2.png') }}" alt="Laminas de Inicio">
-            </li>
-            <li class="orbit-slide">
-              <img class="orbit-image" scr="{{ asset('img/Home_Slider3.png') }}" alt="Laminas de Inicio">
-            </li>
-            <li class="orbit-slide">
-              <img class="orbit-image" scr="{{ asset('img/Home_Slider4.png') }}" alt="Laminas de Inicio">
-            </li>
-          </ul>
+        <div class="expanded row">
+          <div class="columns small-12">
+            <div class="owl-carousel owl-theme carusel_aaalac">
+              <img class="item" src="img/Home_Slider1.png" alt="Laminas de Inicio">
+{{--               <img class="item" src="img/Home_Slider2.png" alt="Laminas de Inicio">
+              <img class="item" src="img/Home_Slider3.png" alt="Laminas de Inicio">
+              <img class="item" src="img/Home_Slider4.png" alt="Laminas de Inicio"> --}}
+            </div>
+          </div>
         </div>
         <!-- / Seccion de Laminas de Inicio -->
       </header>
