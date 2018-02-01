@@ -34,14 +34,14 @@
 				<tbody>
 					@foreach ($fonatrac as $registro)
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>{{ date('d/M/Y',strtotime($fonatrac->fecha_inscripcion)) }}</td>
-							<td></td>
+							<td>{{ date('d/M/Y',strtotime($registro->fecha)) }}</td>
+							<td>{{ $registro->nombre_buque }}</td>
+							<td>{{ $registro->bandera }}</td>
+							<td>{{ $registro->viaje }}</td>
+							<td>{{ $registro->movimiento }}</td>
 							<td>
-								<a class="btn btn-success btn-sm" href="{{ route('fonatrac.edit', $fonatrac->id) }}">Editar</a> |
-								<form  method="POST" action="{{ route('fonatrac.destroy', $fonatrac->id) }}" style="display: inline;">
+								<a class="btn btn-success btn-sm" href="{{ route('fonatrac.edit', $registro->id) }}">Editar</a> |
+								<form  method="POST" action="{{ route('fonatrac.destroy', $registro->id) }}" style="display: inline;">
 									{!! csrf_field() !!}
 									{!! method_field('DELETE') !!}
 									<button class="btn btn-danger btn-sm" type="submit">Borrar</button>
@@ -56,5 +56,18 @@
 @endsection
 
 @push('scripts')
-
+    <script src="../admin/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+	<script src="../admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+	<script>
+	  $(function () {
+        $('#table').DataTable({
+	      'paging'      : true,
+	      'lengthChange': false,
+	      'searching'   : false,
+	      'ordering'    : true,
+	      'info'        : true,
+	      'autoWidth'   : false
+		})
+	  })
+	</script>
 @endpush

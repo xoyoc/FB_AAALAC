@@ -18,8 +18,9 @@
 
 @section('contenido')
 	<section class="content">
-		<form role="form" method="POST" action="{{ route('fonatrac.store') }}" enctype="multipart/form-data">
+		<form role="form" method="POST" action="{{ route('fonatrac.update', $fonatrac->id) }}" enctype="multipart/form-data">
 			{!! csrf_field() !!}
+			{!! method_field('PUT') !!}
 			<div class="row">
 				<div class="col-md-10">
 					<div class="box box-primary">
@@ -28,28 +29,28 @@
 						</div>
 						<div class="box-body">
 							<div class="form-group">
-								<input name="fecha" type="text" class="form-control" id="datepicker" placeholder="Fecha de movimiento" value="{{ old('fecha') }}" required>
+								<input name="fecha" type="text" class="form-control" id="datepicker" placeholder="Fecha de movimiento" value="{{ $fonatrac->fecha }}" required>
 							</div>
 							<div class="bootstrap-timepicker">
 								<div class="form-group">
-									<input name="hora" type="text" class="form-control timepicker" placeholder="Hora" value="{{ old('hora') }}" required>
+									<input name="hora" type="text" class="form-control timepicker" placeholder="Hora" value="{{ $fonatrac->hora }}" required>
 								</div>
 							</div>
 							<div class="form-group">
-								<input name="nombre_buque" type="text" class="form-control" placeholder="Nombre del buque" value="{{ old('nombre_buque') }}" required>
+								<input name="nombre_buque" type="text" class="form-control" placeholder="Nombre del buque" value="{{ $fonatrac->nombre_buque }}" required>
 							</div>
 							<div class="form-group">
-								<input name="bandera" type="text" class="form-control" placeholder="Bandera" value="{{ old('bandera') }}">
+								<input name="bandera" type="text" class="form-control" placeholder="Bandera" value="{{ $fonatrac->bandera }}">
 							</div>
 							<div class="form-group">
-								<input name="viaje" type="text" class="form-control" placeholder="Viaje" value="{{ old('viaje') }}">
+								<input name="viaje" type="text" class="form-control" placeholder="Viaje" value="{{ $fonatrac->viaje }}">
 							</div>
 							<div class="form-group">
-								<input name="terminal" type="text" class="form-control" placeholder="Terminal de movimiento" value="{{ old('terminal') }}">
+								<input name="terminal" type="text" class="form-control" placeholder="Terminal de movimiento" value="{{ $fonatrac->terminal }}">
 							</div>
 							<div class="form-group">
 								<select name="movimiento" id="movimiento" class="form-control select2" style="width: 100%;" required>
-									<option value="" selected="selected">Selecione una opcion</option>
+									<option value="{{ $fonatrac->movimiento }}" selected="selected">{{ $fonatrac->movimiento }}</option>
 									<option value="Fondeo">Fondeo</option>
 									<option value="Atraque">Atraque</option>
 									<option value="Salida">Salida</option>
@@ -57,7 +58,7 @@
 							</div>
 						</div>
 						<div class="box-footer">
-							<input class="float-right btn btn-info" type="submit" value="Agregar movimiento">
+							<input class="float-right btn btn-info" type="submit" value="Guardar movimiento">
 						</div>
 					</div>
 				</div>

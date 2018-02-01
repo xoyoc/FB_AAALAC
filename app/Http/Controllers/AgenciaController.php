@@ -48,7 +48,7 @@ class AgenciaController extends Controller
             $agencia->logotipo = $request->file('logotipo')->store('aa_logotipos');
             $agencia->save();
         }
-        return back()->with('flash', "Agente Aduanal ".$request->nombreaa." se agrego con exito..");
+        return back()->with('flash', "Agente Aduanal ".$request->nombre_agencia." se agrego con exito..");
     }
 
     /**

@@ -8,8 +8,8 @@ class Fonatrac extends Model
 {
     //
     protected $fillable = [
-        'fecha', 'nombre_buque', 'bandera', 'viaje',
-        'terminal', 'movimeinto', 'hora'
+        'fecha', 'hora', 'nombre_buque', 'bandera', 'viaje',
+        'terminal', 'movimiento'
     ];
 
 }

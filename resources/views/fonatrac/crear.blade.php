@@ -23,6 +23,12 @@
 
 @section('contenido')
 	<section class="content">
+		@if(session()->has('flash'))
+			<div class="callout callout-info">
+				<h4>Mensaje</h4>
+				<p>{{ session()->get('flash') }}</p>
+			</div>
+		@endif
 		<form role="form" method="POST" action="{{ route('fonatrac.store') }}" enctype="multipart/form-data">
 			{!! csrf_field() !!}
 			<div class="row">
@@ -83,14 +89,15 @@
 	<!-- Select2 -->
 	<script src="../admin/bower_components/select2/dist/js/select2.full.min.js"></script>
 	<script>
+		// Datepicker
 		$('#datepicker').datepicker({
 	      autoclose: true
 	    })
-	    //Timepicker
+	    // Timepicker
 	    $('.timepicker').timepicker({
 	      showInputs: false
 	    })
-	    //Initialize Select2 Elements
+	    // Initialize Select2 Elements
    		$('.select2').select2()
 	</script>
 @endpush

@@ -21,7 +21,7 @@ class CreateFonatracsTable extends Migration
             $table->string('bandera');
             $table->string('viaje');
             $table->string('terminal');
-            $table->string('movimeinto');
+            $table->string('movimiento');
             $table->timestamps();
         });
     }

@@ -19,6 +19,12 @@
 
 @section('contenido')
 	<section class="content">
+		@if(session()->has('flash'))
+			<div class="callout callout-info">
+				<h4>Mensaje</h4>
+				<p>{{ session()->get('flash') }}</p>
+			</div>
+		@endif
 		<form role="form" method="POST" action="{{ route('agencias.store') }}" enctype="multipart/form-data">
 			{!! csrf_field() !!}
 			<div class="row">

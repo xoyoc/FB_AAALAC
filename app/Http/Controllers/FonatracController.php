@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\fonatrac;
 use App\paises;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class FonatracController extends Controller
@@ -43,7 +44,16 @@ class FonatracController extends Controller
     public function store(Request $request)
     {
         //
-        fonatrac::create($request->all());
+        $fonatrac = new fonatrac;
+        $fonatrac->fecha = Carbon::parse($request->get('fecha'));
+        $fonatrac->hora = Carbon::parse($request->get('hora'));
+        $fonatrac->nombre_buque = $request->get('nombre_buque');
+        $fonatrac->bandera = $request->get('bandera');
+        $fonatrac->viaje = $request->get('viaje');
+        $fonatrac->terminal = $request->get('terminal');
+        $fonatrac->movimiento = $request->get('movimiento');
+        $fonatrac->save();
+        // fonatrac::create($request->all());
 
         return back()->with('flash', "Movimiento del ".$request->nombre_buque." se agrego con exito..");
     }
@@ -57,7 +67,7 @@ class FonatracController extends Controller
     public function show(fonatrac $fonatrac)
     {
         //
-        return view('fonatrac.show');
+        return view('fonatrac.show', compact('fonatrac'));
     }
 
     /**
@@ -69,7 +79,7 @@ class FonatracController extends Controller
     public function edit(fonatrac $fonatrac)
     {
         //
-        return view('fonatrac.editar');
+        return view('fonatrac.editar', compact('fonatrac'));
     }
 
     /**
@@ -82,6 +92,16 @@ class FonatracController extends Controller
     public function update(Request $request, fonatrac $fonatrac)
     {
         //
+        $fonatrac = fonatrac::findOrFail($id);
+        $fonatrac->fecha = Carbon::parse($request->get('fecha'));
+        $fonatrac->hora = Carbon::parse($request->get('hora'));
+        $fonatrac->nombre_buque = $request->get('nombre_buque');
+        $fonatrac->bandera = $request->get('bandera');
+        $fonatrac->viaje = $request->get('viaje');
+        $fonatrac->terminal = $request->get('terminal');
+        $fonatrac->movimiento = $request->get('movimiento');
+        $fonatrac->save();
+        return back()->with('flash', "Registro del ".$request->nombre_buque." se actualizó con exito..");
     }
 
     /**
@@ -93,5 +113,7 @@ class FonatracController extends Controller
     public function destroy(fonatrac $fonatrac)
     {
         //
+        $fonatrac->delete();
+        return redirect()->route('fonatrac.index');
     }
 }
