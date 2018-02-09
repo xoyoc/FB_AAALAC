@@ -1,0 +1,862 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"w",
+				"w-75 \tBootstrap 4 Class"
+			],
+			[
+				"for",
+				"form\t<form>"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"dic_J",
+				"dic_Julio"
+			],
+			[
+				"mt",
+				"mt-2 \tBootstrap 4 Class"
+			],
+			[
+				"my-",
+				"my-2 \tBootstrap 4 Class"
+			],
+			[
+				"fecha",
+				"fechasreporte"
+			],
+			[
+				"pedime",
+				"pedimentospagados"
+			],
+			[
+				"th",
+				"img-thumbnail \tBootstrap 4 Class"
+			],
+			[
+				"w-",
+				"w-25 \tBootstrap 4 Class"
+			],
+			[
+				"he",
+				"hidden\tAttr"
+			],
+			[
+				"sel",
+				"selected\tWP Function"
+			],
+			[
+				"sele",
+				"selected\tAttr"
+			],
+			[
+				"form",
+				"form-control \tBootstrap 4 Class"
+			],
+			[
+				"In",
+				"Input::has\tDetermine if the request contains a given input item key."
+			],
+			[
+				"Input",
+				"Input::has\tDetermine if the request contains a given input item key."
+			],
+			[
+				"me",
+				"method\tAttr"
+			],
+			[
+				"mb-",
+				"mb-3 \tBootstrap 4 Class"
+			],
+			[
+				"pt",
+				"pt-2 \tBootstrap 4 Class"
+			],
+			[
+				"com",
+				"compact"
+			],
+			[
+				"link",
+				"alert-link \tBootstrap 4 Class"
+			],
+			[
+				"btn",
+				"btn-warning \tBootstrap 4 Class"
+			],
+			[
+				"bt",
+				"btn-block \tBootstrap 4 Class"
+			],
+			[
+				"floa",
+				"float-right \tBootstrap 4 Class"
+			],
+			[
+				"h",
+				"h-100 \tBootstrap 4 Class"
+			],
+			[
+				"tab",
+				"table-striped \tBootstrap 4 Class"
+			],
+			[
+				"pl",
+				"pl-1 \tBootstrap 4 Class"
+			],
+			[
+				"f",
+				"flex-row \tBootstrap 4 Class"
+			],
+			[
+				"mb",
+				"mb-2 \tBootstrap 4 Class"
+			],
+			[
+				"my",
+				"my-3 \tBootstrap 4 Class"
+			],
+			[
+				"g",
+				"form-group \tBootstrap 4 Class"
+			],
+			[
+				"di",
+				"disabled\tAttr"
+			],
+			[
+				"na",
+				"name\tAttr"
+			],
+			[
+				"Ro",
+				"Route::resource\tRoute to a RESTful Controller"
+			],
+			[
+				"mr",
+				"mr-5 \tBootstrap 4 Class"
+			],
+			[
+				"flo",
+				"float-right \tBootstrap 4 Class"
+			],
+			[
+				"mh",
+				"mh-100 \tBootstrap 4 Class"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"bo",
+				"button\t<button>"
+			],
+			[
+				"justify-content-m",
+				"justify-content-md-center \tBootstrap 4 Class"
+			],
+			[
+				"py",
+				"py-1 \tBootstrap 4 Class"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"the_",
+				"the_post\tWP Action Name"
+			],
+			[
+				"the",
+				"the_content\tWP Function"
+			],
+			[
+				"the_pos",
+				"the_post_thumbnail\tWP Function"
+			],
+			[
+				"the_t",
+				"the_title\tWP Filter Name"
+			],
+			[
+				"the_time",
+				"the_time\tWP Function"
+			],
+			[
+				"the_ti",
+				"the_time\tWP Filter Name"
+			],
+			[
+				"the_dta",
+				"the_date\tWP Filter Name"
+			],
+			[
+				"borde-c",
+				"border-color"
+			],
+			[
+				"pr",
+				"pr-4 \tBootstrap 4 Class"
+			],
+			[
+				"fl",
+				"float-right \tBootstrap 4 Class"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail\tWP Function"
+			],
+			[
+				"border-r",
+				"border-right-color"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"thepost",
+				"the_post_thumbnail\tWP Function"
+			],
+			[
+				"thet",
+				"the_title\tWP Function"
+			],
+			[
+				"wp_rese",
+				"wp_reset_query\tWP Function"
+			],
+			[
+				"date",
+				"date_create"
+			],
+			[
+				"bar",
+				"background"
+			],
+			[
+				"ju",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"j",
+				"justify-content-around \tBootstrap 4 Class"
+			],
+			[
+				"MT",
+				"mt-4 \tBootstrap 4 Class"
+			],
+			[
+				"PT",
+				"pt-4 \tBootstrap 4 Class"
+			],
+			[
+				"tras",
+				"transform"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"s",
+				"style\t<style>"
+			],
+			[
+				"font-fa",
+				"font-family"
+			],
+			[
+				"te",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"add_the",
+				"add_theme_support\tWP Function"
+			],
+			[
+				"after",
+				"after_setup_theme\tWP Action Name"
+			],
+			[
+				"the_ta",
+				"the_title\tWP Filter Name"
+			],
+			[
+				"have",
+				"have_posts\tWP Function"
+			],
+			[
+				"wp_regis",
+				"wp_register_script\tWP Function"
+			],
+			[
+				"wp_re",
+				"wp_register_script\tWP Function"
+			],
+			[
+				"get_tem",
+				"get_template_directory_uri\tWP Function"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_script\tWP Function"
+			],
+			[
+				"rede",
+				"render_template\tFlask"
+			],
+			[
+				"red",
+				"render_template\tFlask"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"magi",
+				"margin-bottom"
+			],
+			[
+				"Ex",
+				"experiencia"
+			],
+			[
+				"pb",
+				"pb-4 \tBootstrap 4 Class"
+			],
+			[
+				"m",
+				"m-auto \tBootstrap 4 Class"
+			],
+			[
+				"img",
+				"images"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"register_na",
+				"register_nav_menus\tWP Function"
+			],
+			[
+				"get_hea",
+				"get_header\tWP Function"
+			],
+			[
+				"get_he",
+				"get_header\tWP Function"
+			],
+			[
+				"add",
+				"add_action\tWP Function"
+			],
+			[
+				"jo",
+				"json"
+			],
+			[
+				"mai",
+				"__main__"
+			],
+			[
+				"formta",
+				"format\tformat"
+			],
+			[
+				"el",
+				"elif\telif"
+			],
+			[
+				"pediment",
+				"pedimentopagado"
+			],
+			[
+				"pedimentos",
+				"pedimentospagados"
+			],
+			[
+				"set",
+				"set\tset"
+			],
+			[
+				"diaju",
+				"diajulianofinal"
+			],
+			[
+				"diajul",
+				"diajulianoinicio"
+			],
+			[
+				"diajuli",
+				"diajulianoinicio"
+			],
+			[
+				"inp",
+				"input\tinput"
+			],
+			[
+				"int",
+				"int\tint"
+			],
+			[
+				"str",
+				"str\tstr"
+			],
+			[
+				"__s",
+				"__str__\tmagic"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 420.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Xoyoc/Desktop/ReporteValidacion/Reporte.py",
+		"/Users/Xoyoc/Developer/Web TL Pacifico/www/js/global.min.js",
+		"/Users/Xoyoc/Developer/Web TL Pacifico/www/vendor/swiper/swiper.min.css",
+		"/Users/Xoyoc/Developer/Web TL Pacifico/www/js/components/swiper.js",
+		"/Users/Xoyoc/Developer/Web TL Pacifico/www/css/style.css",
+		"/Users/Xoyoc/Developer/Website GM/www/noticias.html",
+		"/Users/Xoyoc/Developer/Website GM/www/servicios.html",
+		"/Users/Xoyoc/Developer/Website GM/www/aviso.html",
+		"/Users/Xoyoc/Desktop/ReporteValidacion/Caaarem_pre/Concentra/Dia18022/Aduana51/m3647640.022",
+		"/Users/Xoyoc/Developer/Website GM/www/cotizaciones.html",
+		"/Users/Xoyoc/Developer/Website GM/www/index.html",
+		"/Users/Xoyoc/Desktop/M3037941.026",
+		"/Users/Xoyoc/Desktop/k3037943.026",
+		"/Users/Xoyoc/Desktop/M3037941 (3).err",
+		"/Users/Xoyoc/Developer/Website GM/www/css/components.css",
+		"/Users/Xoyoc/Developer/Website GM/www/js/responsee.js",
+		"/Users/Xoyoc/Downloads/onepage-template/css/responsee.css",
+		"/Users/Xoyoc/Developer/WebYunuen/wordpress/docker-compose.yml",
+		"/Users/Xoyoc/Developer/WebYunuen/wordpress/Dockerfile",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/page-quienes-somos.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/page-contacto.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/header-contacto.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/page-aviso-de-privacidad.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/page-servicios.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/header-aviso-de-privacidad.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/page-inicio.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/footer.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/header.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/fonatrac/index.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Http/Controllers/FonatracController.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Fonatrac.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/agentes/index.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/fonatrac/crear.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/fonatrac/editar.blade.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/functions.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/AAALAC.sublime-project",
+		"/Volumes/Justificaciones/watch.py",
+		"/Volumes/Justificaciones/watchr.py",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/header-corporativo.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/header-noticias.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/header-quienes-somos.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/header-servicios.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/migrations/2017_12_06_202736_create_fonatracs_table.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Http/Controllers/AgenciaController.php",
+		"/Volumes/Justificaciones/Recejt.sh",
+		"/Volumes/Modu_Ferr/watch.py",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Agente.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Http/Controllers/AgentesController.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/agentes/crear.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/seeds/paisesSeeder.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/paises.php",
+		"/Users/Xoyoc/Developer/AAALAC/paises.txt",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/seeds/DatabaseSeeder.php",
+		"/Users/Xoyoc/Downloads/AdminLTE-2.4.2/pages/forms/advanced.html",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/migrations/2017_12_09_174625_create_paises_table.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/fonatrac/show.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/agencias/crear.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/factories/paisesFactory.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/migrations/2017_12_08_004727_create_paises_table.php",
+		"/Users/Xoyoc/Developer/AAALAC/paises.csv",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/routes/web.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/admin/parciales/nav.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/admin/layouts.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/inicio.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/assets/js/app.js",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/public/css/app.css",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/assets/sass/app.scss",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/migrations/2017_11_11_213808_create_agencias_table.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/assets/img/Logo.svg",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/assets/js/bootstrap.js",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/agentes/editar.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/agencias/show.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/assets/css/app.css",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/webpack.mix.js",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/config/filesystems.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/config/app.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/.env",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/layouts.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/agencias/editar.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/agencias/index.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/agentes/show.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Agencia.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/admin/inicio.blade.php",
+		"/Users/Xoyoc/Downloads/AdminLTE-2.4.2/pages/tables/data.html",
+		"/Users/Xoyoc/Downloads/AdminLTE-2.4.2/index.html",
+		"/Users/Xoyoc/.ssh/id_rsa.pub",
+		"/Users/Xoyoc/.ssh/id_rsa",
+		"/Users/Xoyoc/Desktop/ReporteValidacion/Reporte",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/asociados/index.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Http/Controllers/Controller.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/Homestead.yaml",
+		"/private/etc/hosts",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/migrations/2017_11_06_160349_create_agentes_table.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/routes/api.php",
+		"/Users/Xoyoc/Library/Application Support/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/Users/Xoyoc/Library/Application Support/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/agentes.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/assets/js/components/ExampleComponent.vue",
+		"/Users/Xoyoc/Documents/Estadistica Sep 2017.pptx",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/errors/404.blade.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Http/Middleware/VerifyCsrfToken.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/User.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/app/Providers/AppServiceProvider.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/lang/es/validation.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/lang/es/passwords.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/lang/es/pagination.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/lang/es/auth.php",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/database/factories/agentesFactory.php",
+		"/Volumes/OMEGA/Drive.bat",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/npm-debug.log",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/package.json",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/assets/sass/_variables.scss",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/node_modules/bootstrap/package.json",
+		"/Users/Xoyoc/.profile",
+		"/Users/Xoyoc/.bash_profile",
+		"/usr/local/php5/bin/php",
+		"/usr/local/Cellar/php70",
+		"/Users/Xoyoc/Desktop/ProyectosWeb/NAAALAC/index.html",
+		"/Users/Xoyoc/Desktop/ProyectosWeb/NAAALAC-master/index.html",
+		"/Users/Xoyoc/Developer/AAALAC/aaalac/resources/views/welcome.blade.php",
+		"/Users/Xoyoc/bash_profile",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/style.css",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/page-corporativo.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/single.php",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/index.php",
+		"/Users/Xoyoc/Desktop/Tradelink/Diseño/tradelink/index.html",
+		"/Users/Xoyoc/Desktop/Tradelink/wordpress/wp-content/themes/tradelink/index.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 40.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "AAALAC.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"csrf",
+				"app/Http/Middleware/VerifyCsrfToken.php"
+			],
+			[
+				"apps",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"boot",
+				"resources/assets/js/bootstrap.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
