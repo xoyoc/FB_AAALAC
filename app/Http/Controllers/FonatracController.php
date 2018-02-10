@@ -92,7 +92,7 @@ class FonatracController extends Controller
     public function update(Request $request, fonatrac $fonatrac)
     {
         //
-        $fonatrac = fonatrac::findOrFail($id);
+        $fonatrac = fonatrac::findOrFail($fonatrac->id);
         $fonatrac->fecha = Carbon::parse($request->get('fecha'));
         $fonatrac->hora = Carbon::parse($request->get('hora'));
         $fonatrac->nombre_buque = $request->get('nombre_buque');
