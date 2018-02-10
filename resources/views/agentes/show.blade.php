@@ -28,7 +28,7 @@
 				<h3>Fecha de Inscripcion: {{ date('d M Y', strtotime($agente->fecha_inscripcion)) }}</h3>
 				<h3>Curp: {{ $agente->curp }}</h3>
 				<h3>Estatus: {{ $agente->estatus }}</h3>
-				<h3>Expediente: <a href="{{ Storage::url($agente->expediente) }}">{{ $agente->expediente }}</a></h3>
+				<h3>Expediente: <a href="{{ Storage::url($agente->expediente) }}"><i class="fa fa-file-pdf-o"></i></a></h3>
 			</div>
 			<div class="box-footer">
 				<a href="/agentes" class="btn btn-warning">Regersar</a>

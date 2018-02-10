@@ -48,13 +48,28 @@ class AgentesController extends Controller
             'fecha_inscripcion' => ['required', 'date']
         ]);
         
-        agente::create($request->all());
-
+        $agente = new agente;
+        $agente->patente = $request->get('patente');
+        $agente->nombreaa = $request->get('nombreaa');
+        $agente->email = $request->get('email');
+        $agente->fecha_inscripcion = $request->get('fecha_inscripcion');
+        $agente->curp = $request->get('curp');
         if ($request->hasFile('expediente'))
         {
             $agente->expediente = $request->file('expediente')->store('aa_expedientes');
-            $agente->save();
         }
+        $agente->carta_aaalac = $request->get('carta_aaalac');
+        $agente->carta_referencia = $request->get('carta_referencia');
+        $agente->copia_acta = $request->get('copia_acta');
+        $agente->copia_publicacion = $request->get('copia_publicacion');
+        $agente->copia_no_ade = $request->get('copia_no_ade');
+        $agente->copia_poder = $request->get('copia_poder');
+        $agente->pago = $request->get('pago');
+        $agente->estatus = $request->get('estatus');
+        $agente->save();
+
+        // agente::create($request->all());
+
 
         return back()->with('flash', "Agente Aduanal ".$request->nombreaa." se agrego con exito..");
 
