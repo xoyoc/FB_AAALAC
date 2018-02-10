@@ -20,6 +20,7 @@ class CreateAgentesTable extends Migration
             $table->string('email')->unique();
             $table->date('fecha_inscripcion');
             $table->string('curp')->nullable();
+            $table->string('expediente')->nullable();
             $table->enum('carta_aaalac',['No', 'Si']);
             $table->enum('carta_referencia',['No', 'Si']);
             $table->enum('copia_acta',['No', 'Si']);

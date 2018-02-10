@@ -16,7 +16,7 @@ class Agente extends Model
     //
     protected $fillable = [
         'patente', 'nombreaa', 'email', 'fecha_inscripcion',
-        'curp', 'carta_aaalac', 'carta_referencia','copia_acta',
+        'curp', 'expediente', 'carta_aaalac', 'carta_referencia','copia_acta',
         'copia_publicacion', 'copia_no_ade', 'copia_poder', 'pago',
         'estatus'
     ];

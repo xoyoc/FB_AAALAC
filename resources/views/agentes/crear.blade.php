@@ -26,7 +26,7 @@
 			</div>
 		@endif
 		<div class="row">
-			<form role="form" method="POST" action="{{ route('agentes.store') }}">
+			<form role="form" method="POST" action="{{ route('agentes.store') }}" enctype="multipart/form-data">
 				{!! csrf_field() !!}
 				<div class="col-md-8">
 					<div class="box box-primary">
@@ -48,6 +48,10 @@
 							</div>
 							<div class="form-group">
 								<input class="form-control" type="text" name="curp" placeholder="Clave Unica de Registro Población" value="{{ old('curp') }}"> {!! $errors->first('curp', '<span class="badge badge-pill badge-danger mb-3">:message</span>') !!}
+							</div>
+							<div class="form-group">
+								<label for="expediente">Expediente</label>
+								<input type="file" name="expediente" id="expediente" class="form-control">
 							</div>
 						</div>
 					</div>

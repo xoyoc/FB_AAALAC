@@ -50,6 +50,10 @@
 							<div class="form-group">
 								<input class="form-control" type="text" name="curp" placeholder="Clave Unica de Registro Población" value="{{ $agente->curp }}">
 							</div>
+							<div class="form-group">
+								<label for="expediente">Expediente</label>
+								<input type="file" name="expediente" id="expediente" class="form-control">
+							</div>							
 						</div>
 					</div>
 				</div>

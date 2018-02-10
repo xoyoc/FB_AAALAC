@@ -61,6 +61,7 @@
 								<input class="form-control" type="url" name="web" placeholder="http://www.mipaginaweb.com" value="{{ old('web') }}"> {!! $errors->first('web', '<span class="badge badge-pill badge-danger mb-3">:message</span>') !!}
 							</div>
 							<div class="form-group">
+								<label for="logotipo">Logotipo</label>
 								<input type="file" name="logotipo" id="logotipo" class="form-control">
 							</div>
 						</div>

@@ -47,8 +47,14 @@ class AgentesController extends Controller
             'email' => ['required', 'email'],
             'fecha_inscripcion' => ['required', 'date']
         ]);
-
+        
         agente::create($request->all());
+
+        if ($request->hasFile('expediente'))
+        {
+            $agente->expediente = $request->file('expediente')->store('aa_expedientes');
+            $agente->save();
+        }
 
         return back()->with('flash', "Agente Aduanal ".$request->nombreaa." se agrego con exito..");
 
@@ -91,6 +97,12 @@ class AgentesController extends Controller
     {
         //
         agente::findOrFail($id)->update($request->all());
+        
+        if ($request->hasFile('expediente'))
+        {
+            $agente->expediente = $request->file('expediente')->store('aa_expedientes');
+            $agente->save();
+        }        
 
        return back()->with('flash', "Agente Aduanal ".$request->nombreaa." se actualizó con exito..");
     }
